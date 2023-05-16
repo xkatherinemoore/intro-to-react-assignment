@@ -1,5 +1,4 @@
 import "./styles/App.css";
-import UserProfile from "./UserProfile";
 function App() {
   //The array of users to render in the assignment
   const users = [
@@ -50,15 +49,8 @@ function App() {
         <h1 className="">User Profiles:</h1>
       </header>
       <div className="user-profile-wrapper">
-        {/* 
-        For each user in our array, we will return a UserProfile
-        component that takes in the index as a key so the VDOM can
-        keep track of this particular component and the user object
-        as the value of a custom 'user' prop that we defined.
-        */}
-        {users.map((user, index) => (
-          <UserProfile key={index} user={user} />
-        ))}
+        {/* Render the array of users using the UserProfile in this div */}
+
       </div>
     </div>
   );
