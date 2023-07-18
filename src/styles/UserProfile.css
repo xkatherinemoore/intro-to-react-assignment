@@ -1,0 +1,16 @@
+.user {
+    display: block;
+    background-color: lightskyblue;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border: darkblue 3px solid;
+    font: 18px sans-serif;
+    color: darkblue;
+}
+
+.thumbnail {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}
